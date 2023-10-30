@@ -42,3 +42,7 @@ function resetScore() {
     localStorage.removeItem('score');
     console.log('Score Reset');
 }
+
+document.getElementById('choose-heads').onclick = () => {
+    flip('heads');
+}
